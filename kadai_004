@@ -1,0 +1,18 @@
+tda2017noMacBook-Pro:~ yuna$ cd /Users/yuna/Desktop
+tda2017noMacBook-Pro:Desktop yuna$ mkdir git_challenge
+tda2017noMacBook-Pro:Desktop yuna$ cd git_challenge
+tda2017noMacBook-Pro:git_challenge yuna$ git init
+Initialized empty Git repository in /Users/yuna/Desktop/git_challenge/.git/
+tda2017noMacBook-Pro:git_challenge yuna$ git add hello_world.txt
+tda2017noMacBook-Pro:git_challenge yuna$ git commit -m “hello_world.txtを追加”
+[main (root-commit) 8320657] “hello_world.txtを追加”
+ 1 file changed, 2 insertions(+)
+ create mode 100644 hello_world.txt
+tda2017noMacBook-Pro:git_challenge yuna$ git add hello_world.txt
+tda2017noMacBook-Pro:git_challenge yuna$ git commit -m “日本語訳を追記”
+[main 0d03dfa] “日本語訳を追記”
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+tda2017noMacBook-Pro:git_challenge yuna$ git log --oneline
+0d03dfa (HEAD -> main) “日本語訳を追記”
+8320657 “hello_world.txtを追加”
+tda2017noMacBook-Pro:git_challenge yuna$ 
